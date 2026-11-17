@@ -1,0 +1,20 @@
+# Whitelist approach: ignore everything, then re-include only notes.
+*
+!*/
+!/.gitignore
+
+# Notes in the Obsidian vault
+!/personal-knowledge-base/**/*.md
+!/personal-knowledge-base/**/*.canvas
+
+# Never track these (rules below override the whitelist above)
+/CLAUDE.md
+/references/
+/research/
+/personal-knowledge-base/.obsidian/
+/personal-knowledge-base/.trash/
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.pdf
